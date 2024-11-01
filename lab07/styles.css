@@ -1,0 +1,33 @@
+table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    border: 2px solid #ff69b4; /* Bright pink border */
+    padding: 10px; /* Space inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #ffccff; /* Light pink background for header */
+    color: #d5006d; /* Darker pink text for header */
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6f2; /* Light pink for even rows */
+}
+
+tr:hover {
+    background-color: #ffb3d9; /* Slightly darker pink on hover */
+}
+
+img {
+    max-width: 100px; /* Set a max width for images */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ffcccb; /* Soft border for images */
+    border-radius: 10px; /* Rounded corners for images */
+    display: block; /* Block display to center images in the cell */
+    margin: 0 auto; /* Center images horizontally */
+}
